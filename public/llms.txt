@@ -1,0 +1,11 @@
+# customer0
+
+> Index of customer0 spikes. Each spike has its own site, source, llms.txt and eval verdict.
+
+## Spikes
+
+- [tether](https://tether.customer0.dev/llms.txt): Check what an agent says it did against the output it did it with. Verdict: disproven.
+
+## Data
+
+- [spikes.json](https://customer0.dev/spikes.json)

@@ -1,0 +1,12 @@
+[
+ {
+  "n": 1,
+  "name": "tether",
+  "line": "Check what an agent says it did against the output it did it with.",
+  "url": "https://tether.customer0.dev",
+  "repo": "https://github.com/acoyfellow/tether",
+  "verdict": "disproven",
+  "evidence": "Frozen eval, 120 real claim/output pairs: tether recall 1.0, precision 0.776; a regex matched it (1.0 / 0.95).",
+  "shipped": "2026-10-28"
+ }
+]
