@@ -18,5 +18,15 @@
     "verdict": "building",
     "evidence": "Directory and Sign in with Cloudflare are live. The first installable entry, the agent fleet, is being built.",
     "shipped": "2026-10-29"
+  },
+  {
+    "n": 3,
+    "name": "marionette",
+    "line": "Hard ideas you can poke: autoscaling, PID, interlocks, sync. Each page is a tiny neural network wired by hand, with no ifs.",
+    "url": "https://marionette.customer0.dev",
+    "repo": "https://github.com/acoyfellow/marionette",
+    "verdict": "building",
+    "evidence": "Every page replays bit for bit from its inputs alone; the tests and the 3-viewport Playwright gate pass on every page.",
+    "shipped": "2026-10-29"
   }
 ]
