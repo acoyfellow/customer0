@@ -5,6 +5,7 @@
 ## Spikes
 
 - [tether](https://tether.customer0.dev/llms.txt): Check what an agent says it did against the output it did it with. Verdict: disproven.
+- [port](https://port.customer0.dev/llms.txt): Install agent infra on your own Cloudflare account. Preview it, keep it, or tear it down. Verdict: building.
 
 ## Data
 

@@ -8,5 +8,15 @@
   "verdict": "disproven",
   "evidence": "Frozen eval, 120 real claim/output pairs: tether recall 1.0, precision 0.776; a regex matched it (1.0 / 0.95).",
   "shipped": "2026-10-28"
+ },
+ {
+  "n": 2,
+  "name": "port",
+  "line": "Install agent infra on your own Cloudflare account. Preview it, keep it, or tear it down.",
+  "url": "https://port.customer0.dev",
+  "repo": "https://github.com/acoyfellow/port",
+  "verdict": "building",
+  "evidence": "Directory and Sign in with Cloudflare are live. The first installable entry, the agent fleet, is being built.",
+  "shipped": "2026-10-29"
  }
 ]

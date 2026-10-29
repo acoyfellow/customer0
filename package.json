@@ -1,0 +1,20 @@
+{
+  "name": "customer0",
+  "version": "1.0.0",
+  "description": "Text-only index of spikes at [customer0.dev](https://customer0.dev). Installable as a PWA, works offline.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "private": "true",
+  "dependencies": {
+    "sharp": "^0.34.5"
+  },
+  "allowScripts": {
+    "sharp@0.34.5": true
+  }
+}
