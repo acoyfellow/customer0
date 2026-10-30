@@ -38,5 +38,15 @@
   "verdict": "building",
   "evidence": "Kill fuzz: 210 runs, 1,044 injected crashes, 0 wrong outcomes. In production, replay finished an agent-written script on the wrong result; amber did not.",
   "shipped": "2026-10-29"
+ },
+ {
+  "n": 5,
+  "name": "accrete",
+  "line": "Build each npm CLI your agent calls once in a container, check it against the real tool, then run the saved copy in an isolate with no container boot.",
+  "url": "https://accrete.customer0.dev",
+  "repo": "https://github.com/acoyfellow/accrete",
+  "verdict": "building",
+  "evidence": "Sealed receipts on 6 workflows: repeat calls 3 to 18 times faster than npx, same output, 0 container-seconds. Only 4 of 17 candidate tools lift; native binaries and eval stay in the container.",
+  "shipped": "2026-10-29"
  }
 ]
