@@ -28,5 +28,15 @@
     "verdict": "building",
     "evidence": "Every page replays bit for bit from its inputs alone; the tests and the 3-viewport Playwright gate pass on every page.",
     "shipped": "2026-10-29"
+  },
+  {
+    "n": 4,
+    "name": "amber",
+    "line": "Pause code your agent wrote. A script stops at tool() until a human answers, then resumes mid-loop with no replay.",
+    "url": "https://amber.customer0.dev",
+    "repo": "https://github.com/acoyfellow/amber",
+    "verdict": "building",
+    "evidence": "Kill fuzz: 210 runs, 1,044 injected crashes, 0 wrong outcomes. In production, replay finished an agent-written script on the wrong result; amber did not.",
+    "shipped": "2026-10-29"
   }
 ]

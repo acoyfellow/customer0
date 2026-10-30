@@ -6,6 +6,8 @@
 
 - [tether](https://tether.customer0.dev/llms.txt): Check what an agent says it did against the output it did it with. Verdict: disproven.
 - [port](https://port.customer0.dev/llms.txt): Install agent infra on your own Cloudflare account. Preview it, keep it, or tear it down. Verdict: building.
+- [marionette](https://marionette.customer0.dev/llms.txt): Hard ideas you can poke: autoscaling, PID, interlocks, sync. Each page is a tiny neural network wired by hand, with no ifs. Verdict: building.
+- [amber](https://amber.customer0.dev/llms.txt): Pause code your agent wrote. A script stops at tool() until a human answers, then resumes mid-loop with no replay. Verdict: building.
 
 ## Data
 

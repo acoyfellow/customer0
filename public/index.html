@@ -67,6 +67,18 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 <p><span class="verdict building">building</span> Directory and Sign in with Cloudflare are live. The first installable entry, the agent fleet, is being built.</p>
 <p class="links"><a href="https://github.com/acoyfellow/port">source</a> · <a href="https://port.customer0.dev/llms.txt">llms.txt</a> · 2026-10-29</p>
 </li>
+<li>
+<h2><span class="n">03</span><a href="https://marionette.customer0.dev">marionette</a></h2>
+<p>Hard ideas you can poke: autoscaling, PID, interlocks, sync. Each page is a tiny neural network wired by hand, with no ifs.</p>
+<p><span class="verdict building">building</span> Every page replays bit for bit from its inputs alone; the tests and the 3-viewport Playwright gate pass on every page.</p>
+<p class="links"><a href="https://github.com/acoyfellow/marionette">source</a> · <a href="https://marionette.customer0.dev/llms.txt">llms.txt</a> · 2026-10-29</p>
+</li>
+<li>
+<h2><span class="n">04</span><a href="https://amber.customer0.dev">amber</a></h2>
+<p>Pause code your agent wrote. A script stops at tool() until a human answers, then resumes mid-loop with no replay.</p>
+<p><span class="verdict building">building</span> Kill fuzz: 210 runs, 1,044 injected crashes, 0 wrong outcomes. In production, replay finished an agent-written script on the wrong result; amber did not.</p>
+<p class="links"><a href="https://github.com/acoyfellow/amber">source</a> · <a href="https://amber.customer0.dev/llms.txt">llms.txt</a> · 2026-10-29</p>
+</li>
 </ol>
 <footer><a href="/spikes.json">spikes.json</a> · <a href="/llms.txt">llms.txt</a> · <a href="/brand/">brand</a></footer>
 </div>
