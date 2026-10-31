@@ -48,5 +48,15 @@
     "verdict": "building",
     "evidence": "Sealed receipts on 6 workflows: repeat calls 3 to 18 times faster than npx, same output, 0 container-seconds. Only 4 of 17 candidate tools lift; native binaries and eval stay in the container.",
     "shipped": "2026-10-29"
+  },
+  {
+    "n": 6,
+    "name": "do",
+    "line": "Computer use without pixel guessing. The device lists what can be clicked, Clef picks one with a probability, a writer is called only for new text.",
+    "url": "https://do.customer0.dev",
+    "repo": "https://github.com/acoyfellow/do",
+    "verdict": "building",
+    "evidence": "30 bench tasks, 3 repeats: relay 30/30 at $0.0016 a task; Opus with screenshots 22.7/30 at $0.029. No unrequested destructive action in any run.",
+    "shipped": "2026-10-31"
   }
 ]
