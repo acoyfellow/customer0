@@ -1,0 +1,27 @@
+public/index.html
+  s_a90e6f4617f964::t_0b6525503af052 88-93
+public/llms.txt
+  s_a90e6f4617f964::t_bb15fac729966c 12
+public/spikes.json
+  s_a90e6f4617f964::t_24cfbfcf9f1c36 51-60
+public/sw.js
+  s_a90e6f4617f964::t_f66224b6a51894 1
+spikes.json
+  s_a90e6f4617f964::t_52e2423365dc4a 51-60
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "55fae4dba046d057084de534c58acd70d360956f",
+  "prompts": {},
+  "sessions": {
+    "s_a90e6f4617f964": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a16017-51a0-7338-8762-5c58263ca8af",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    }
+  }
+}
