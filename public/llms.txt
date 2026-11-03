@@ -10,6 +10,7 @@
 - [amber](https://amber.customer0.dev/llms.txt): Pause code your agent wrote. A script stops at tool() until a human answers, then resumes mid-loop with no replay. Verdict: building.
 - [accrete](https://accrete.customer0.dev/llms.txt): Build each npm CLI your agent calls once in a container, check it against the real tool, then run the saved copy in an isolate with no container boot. Verdict: building.
 - [do](https://do.customer0.dev/llms.txt): Computer use without pixel guessing. The device lists what can be clicked, Clef picks one with a probability, a writer is called only for new text. Verdict: building.
+- [teeth](https://teeth.customer0.dev/llms.txt): Plants small bugs in changed TypeScript files, runs the real tests against each, and reports the share the tests catch. Verdict: disproven.
 
 ## Data
 

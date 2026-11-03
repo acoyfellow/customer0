@@ -58,5 +58,15 @@
     "verdict": "building",
     "evidence": "30 bench tasks, 3 repeats: relay 30/30 at $0.0016 a task; Opus with screenshots 22.7/30 at $0.029. No unrequested destructive action in any run.",
     "shipped": "2026-10-31"
+  },
+  {
+    "n": 7,
+    "name": "teeth",
+    "line": "Plants small bugs in changed TypeScript files, runs the real tests against each, and reports the share the tests catch.",
+    "url": "https://teeth.customer0.dev",
+    "repo": "https://github.com/acoyfellow/teeth",
+    "verdict": "disproven",
+    "evidence": "Disproven: putting the mutation check in the agent loop; over 34 Haiku 4.5 seats per arm, off passed 25 hidden tests at $17.80, a free placebo nudge 29 at $15.60, and teeth on 31 at $21.09.",
+    "shipped": "2026-10-31"
   }
 ]

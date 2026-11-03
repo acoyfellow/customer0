@@ -1,4 +1,4 @@
-const CACHE = "c0-cb8c5c781b75";
+const CACHE = "c0-8d03af77828d";
 const FILES = ["/", "/llms.txt", "/spikes.json", "/manifest.webmanifest", "/brand/mark.svg", "/brand/mark-dark.svg", "/brand/favicon.svg", "/brand/png/icon-192.png"];
 self.addEventListener("install", (event) => event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(FILES)).then(() => self.skipWaiting())));
 self.addEventListener("activate", (event) => event.waitUntil(caches.keys().then((keys) => Promise.all(keys.filter((key) => key !== CACHE).map((key) => caches.delete(key)))).then(() => self.clients.claim())));
