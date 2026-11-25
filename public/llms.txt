@@ -15,7 +15,7 @@
 - [my-ax](https://my-ax.customer0.dev/llms.txt): Your own agent: chats, saved tools, jobs, and your own computers that it can use after you approve them. Verdict: building.
 - [radar](https://radar.customer0.dev/llms.txt): Reads new arXiv papers each day, scores them for agent work, and hands the best to my-ax as tools. Verdict: building.
 - [mcp-trust](https://trust.customer0.dev/llms.txt): An MCP gateway that lets an agent write only to the places you named in your own prompt, and call only the provider you named. Verdict: proven.
-- [trees](https://trees.customer0.dev/llms.txt): One Intent UI document, six UI trees. Build a page once from a lazy intent, then switch between Kumo, a terminal, System 7, Swiss print, LCARS and shadcn with no new model calls. Verdict: demo.
+- [trees](https://trees.customer0.dev/llms.txt): A mock-up of the Intent UI idea: one document, six UI trees. Build a page once, then switch between Kumo-like, terminal, System 7, Swiss print, LCARS and shadcn skins. Verdict: demo.
 
 ## Data
 

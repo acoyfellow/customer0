@@ -112,11 +112,11 @@
  {
   "n": 12,
   "name": "trees",
-  "line": "One Intent UI document, six UI trees. Build a page once from a lazy intent, then switch between Kumo, a terminal, System 7, Swiss print, LCARS and shadcn with no new model calls.",
+  "line": "A mock-up of the Intent UI idea: one document, six UI trees. Build a page once, then switch between Kumo-like, terminal, System 7, Swiss print, LCARS and shadcn skins.",
   "url": "https://trees.customer0.dev",
   "repo": "https://github.com/acoyfellow/trees",
   "verdict": "demo",
-  "evidence": "A demo, not an eval. The model calls are simulated and the data is a fixed fixture. Checked in Chromium at 1280 and 390 px: one click takes the document from v3 to v4, and the built page shows up the same in every tree.",
+  "evidence": "A mock-up, not an eval or an IAP host. The screens are hand-written, the JSON panel only loosely follows IAP v0.1, the six trees are CSS skins over one component set, and model calls are simulated. Checked in Chromium at 1280 and 390 px.",
   "shipped": "2026-11-25"
  }
 ]
