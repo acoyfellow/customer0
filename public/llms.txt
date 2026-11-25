@@ -9,8 +9,13 @@
 - [marionette](https://marionette.customer0.dev/llms.txt): Hard ideas you can poke: autoscaling, PID, interlocks, sync. Each page is a tiny neural network wired by hand, with no ifs. Verdict: building.
 - [amber](https://amber.customer0.dev/llms.txt): Pause code your agent wrote. A script stops at tool() until a human answers, then resumes mid-loop with no replay. Verdict: building.
 - [accrete](https://accrete.customer0.dev/llms.txt): Build each npm CLI your agent calls once in a container, check it against the real tool, then run the saved copy in an isolate with no container boot. Verdict: building.
-- [do](https://do.customer0.dev/llms.txt): Computer use without pixel guessing. The device lists what can be clicked, Clef picks one with a probability, a writer is called only for new text. Verdict: building.
+- [hand](https://hand.coey.dev/llms.txt): Computer use without pixel guessing. The device lists what can be clicked, Clef picks one with a probability, a writer is called only for new text. Verdict: building.
 - [teeth](https://teeth.customer0.dev/llms.txt): Plants small bugs in changed TypeScript files, runs the real tests against each, and reports the share the tests catch. Verdict: disproven.
+- [ghost](https://ghost.customer0.dev/llms.txt): Before an agent clicks, will the click land? A model that writes the rule beats a model that looks at the page. Verdict: disproven.
+- [my-ax](https://my-ax.customer0.dev/llms.txt): Your own agent: chats, saved tools, jobs, and your own computers that it can use after you approve them. Verdict: building.
+- [radar](https://radar.customer0.dev/llms.txt): Reads new arXiv papers each day, scores them for agent work, and hands the best to my-ax as tools. Verdict: building.
+- [mcp-trust](https://trust.customer0.dev/llms.txt): An MCP gateway that lets an agent write only to the places you named in your own prompt, and call only the provider you named. Verdict: proven.
+- [trees](https://trees.customer0.dev/llms.txt): One Intent UI document, six UI trees. Build a page once from a lazy intent, then switch between Kumo, a terminal, System 7, Swiss print, LCARS and shadcn with no new model calls. Verdict: demo.
 
 ## Data
 

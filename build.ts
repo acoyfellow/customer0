@@ -15,7 +15,7 @@ const item = (spike: Spike) => `<li>
 <h2><span class="n">${String(spike.n).padStart(2, "0")}</span><a href="${escape(spike.url)}">${escape(spike.name)}</a></h2>
 <p>${escape(spike.line)}</p>
 <p><span class="verdict ${escape(spike.verdict)}">${escape(spike.verdict)}</span> ${escape(spike.evidence)}</p>
-<p class="links"><a href="${escape(spike.repo)}">source</a> · <a href="${escape(spike.url)}/llms.txt">llms.txt</a> · ${escape(spike.shipped)}</p>
+<p class="links">${spike.repo ? `<a href="${escape(spike.repo)}">source</a> · ` : ""}<a href="${escape(spike.url)}/llms.txt">llms.txt</a> · ${escape(spike.shipped)}</p>
 </li>`;
 
 const FONTS = "https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,300..700&family=Google+Sans+Code:wght@400;500&display=swap";

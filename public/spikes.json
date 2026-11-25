@@ -51,10 +51,10 @@
  },
  {
   "n": 6,
-  "name": "do",
+  "name": "hand",
   "line": "Computer use without pixel guessing. The device lists what can be clicked, Clef picks one with a probability, a writer is called only for new text.",
-  "url": "https://do.customer0.dev",
-  "repo": "https://github.com/acoyfellow/do",
+  "url": "https://hand.coey.dev",
+  "repo": "https://github.com/acoyfellow/hand",
   "verdict": "building",
   "evidence": "30 bench tasks, 3 repeats: relay 30/30 at $0.0016 a task; Opus with screenshots 22.7/30 at $0.029. No unrequested destructive action in any run.",
   "shipped": "2026-10-31"
@@ -68,5 +68,55 @@
   "verdict": "disproven",
   "evidence": "Disproven: putting the mutation check in the agent loop; over 34 Haiku 4.5 seats per arm, off passed 25 hidden tests at $17.80, a free placebo nudge 29 at $15.60, and teeth on 31 at $21.09.",
   "shipped": "2026-10-31"
+ },
+ {
+  "n": 8,
+  "name": "ghost",
+  "line": "Before an agent clicks, will the click land? A model that writes the rule beats a model that looks at the page.",
+  "url": "https://ghost.customer0.dev",
+  "repo": "https://github.com/acoyfellow/ghost",
+  "verdict": "disproven",
+  "evidence": "Frozen eval, 193 real Browser Run pages labelled by a real click: one elementFromPoint call F1 0.883 for free; Workers AI llama-4-scout 0.662; SmolVLM-256M on WebGPU 0.349. A rule Fable 5.2 wrote from dev frames only tied the hand-written rule on every holdout page. Gym of 500 generated pages, scored on 5 unseen families: Fable's rule 0.737, the hand-written rule 0.647, Workers AI vision 0.444. It got 1.0 on an unseen mechanism, but missed the pre-registered 0.90 because some pages change after the agent looks.",
+  "shipped": "2026-11-11"
+ },
+ {
+  "n": 9,
+  "name": "my-ax",
+  "line": "Your own agent: chats, saved tools, jobs, and your own computers that it can use after you approve them.",
+  "url": "https://my-ax.customer0.dev",
+  "repo": "https://github.com/acoyfellow/my-ax",
+  "verdict": "building",
+  "evidence": "Live for Cloudflare staff (sign-in required). Moved here from the AX account with 192 chats copied exactly; machines update over a WebSocket, with no polling.",
+  "shipped": "2026-11-18"
+ },
+ {
+  "n": 10,
+  "name": "radar",
+  "line": "Reads new arXiv papers each day, scores them for agent work, and hands the best to my-ax as tools.",
+  "url": "https://radar.customer0.dev",
+  "repo": "",
+  "verdict": "building",
+  "evidence": "Live for Cloudflare staff (sign-in required). 537 stored papers and runs moved here; my-ax calls it through radar__top and radar__paper.",
+  "shipped": "2026-11-18"
+ },
+ {
+  "n": 11,
+  "name": "mcp-trust",
+  "line": "An MCP gateway that lets an agent write only to the places you named in your own prompt, and call only the provider you named.",
+  "url": "https://trust.customer0.dev",
+  "repo": "https://github.com/acoyfellow/mcp-trust",
+  "verdict": "proven",
+  "evidence": "Real Workers AI agent, real KV writes: fence off, 20 to 30% of injected writes landed; fence on, 7 of 7 blocked, 0 of 20 clean tasks blocked, about 3 ms a decision. A lookalike provider won 34 of 50 picks; pinning the named provider let it reach 0 of 50.",
+  "shipped": "2026-11-23"
+ },
+ {
+  "n": 12,
+  "name": "trees",
+  "line": "One Intent UI document, six UI trees. Build a page once from a lazy intent, then switch between Kumo, a terminal, System 7, Swiss print, LCARS and shadcn with no new model calls.",
+  "url": "https://trees.customer0.dev",
+  "repo": "https://github.com/acoyfellow/trees",
+  "verdict": "demo",
+  "evidence": "A demo, not an eval. The model calls are simulated and the data is a fixed fixture. Checked in Chromium at 1280 and 390 px: one click takes the document from v3 to v4, and the built page shows up the same in every tree.",
+  "shipped": "2026-11-25"
  }
 ]
