@@ -118,5 +118,15 @@
     "verdict": "building",
     "evidence": "The host passes 28 of 28 IAP v0.1 conformance fixtures, written from the spec and fixtures alone. Two bindings are real (HTML, terminal); the other four trees are CSS skins. The model call is simulated and the data is a recorded tool call. Checked in Chromium at 1280 and 390 px: one model call, then alias replays.",
     "shipped": "2026-11-25"
+  },
+  {
+    "n": 13,
+    "name": "rail",
+    "line": "Minimal trunk-based CI/CD entirely on Cloudflare primitives. Push to an Artifacts repo; one Workflow runs R2 lockfile cache, 4 parallel Sandbox checks, a network-isolated Worker Loader preview gate, atomic DO promotion, and emits human + JSON receipts.",
+    "url": "https://rail.customer0.dev",
+    "repo": "https://github.com/acoyfellow/rail",
+    "verdict": "proven",
+    "evidence": "Verified live with 4 real git pushes to Artifacts: cold cache PASS (dep_0001, 17.3s), warm R2 cache HIT PASS (dep_0002, 8.3s), broken test FAIL CLOSED (deploy refused, /app stayed on dep_0002), and rollback push PASS (dep_0003). Zero external CI, zero containers on the control path, MCP + JSON receipts verified in Chromium at 1280 and 390 px.",
+    "shipped": "2026-11-27"
   }
 ]

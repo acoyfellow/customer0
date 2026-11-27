@@ -16,6 +16,7 @@
 - [radar](https://radar.customer0.dev/llms.txt): Reads new arXiv papers each day, scores them for agent work, and hands the best to my-ax as tools. Verdict: building.
 - [mcp-trust](https://trust.customer0.dev/llms.txt): An MCP gateway that lets an agent write only to the places you named in your own prompt, and call only the provider you named. Verdict: proven.
 - [trees](https://trees.customer0.dev/llms.txt): One Intent UI document, six UI trees. A small IAP host built from the spec renders it through HTML and terminal bindings; build a view once from an intent, then every tree reuses it. Verdict: building.
+- [rail](https://rail.customer0.dev/llms.txt): Minimal trunk-based CI/CD entirely on Cloudflare primitives. Push to an Artifacts repo; one Workflow runs R2 lockfile cache, 4 parallel Sandbox checks, a network-isolated Worker Loader preview gate, atomic DO promotion, and emits human + JSON receipts. Verdict: proven.
 
 ## Data
 
